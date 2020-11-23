@@ -30,7 +30,7 @@ const routes: Routes = [
   },
   {
     path: Path.App,
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
     children: [
       {
         path: Path.Dashboard,
